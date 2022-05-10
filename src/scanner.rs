@@ -47,20 +47,20 @@ impl<'a> Scanner<'a> {
         let mut keywords: collections::HashMap<&str, TokenType> = collections::HashMap::new();
 
         use self::TokenType::*;
-        keywords.insert("or", OR);
-        keywords.insert("and", AND);
-        keywords.insert("if", IF);
-        keywords.insert("else", ELSE);
-        keywords.insert("var", VAR);
-        keywords.insert("for", FOR);
-        keywords.insert("while", WHILE);
-        keywords.insert("fun", FUN);
-        keywords.insert("class", CLASS);
+        keywords.insert("yoki", OR);
+        keywords.insert("va", AND);
+        keywords.insert("agar", IF);
+        keywords.insert("unda", ELSE);
+        keywords.insert("joy", VAR);
+        keywords.insert("toki", FOR);
+        keywords.insert("qachonki", WHILE);
+        keywords.insert("funksiya", FUN);
+        keywords.insert("klass", CLASS);
         keywords.insert("super", SUPER);
-        keywords.insert("this", THIS);
-        keywords.insert("return", RETURN);
-        keywords.insert("true", TRUE);
-        keywords.insert("false", FALSE);
+        keywords.insert("shu", THIS);
+        keywords.insert("qaytar", RETURN);
+        keywords.insert("ha", TRUE);
+        keywords.insert("yoq", FALSE);
         keywords.insert("nil", NIL);
 
         Scanner {
