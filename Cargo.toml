@@ -1,6 +1,6 @@
 [package]
-name = "loxr"
+name = "xooplscript"
 version = "0.1.0"
-authors = ["Harvey Hunt <harveyhuntnexus@gmail.com>"]
+authors = ["Said Fromgodd <saidofficial@yandex.ru>"]
 
 [dependencies]
